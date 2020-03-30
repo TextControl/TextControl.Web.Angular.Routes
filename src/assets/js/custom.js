@@ -1,0 +1,8 @@
+function removeEditorFromDom()
+{
+    TXTextControl.removeFromDom();
+}
+
+    
+
+
