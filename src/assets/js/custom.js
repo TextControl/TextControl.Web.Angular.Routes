@@ -1,8 +1,6 @@
 function removeEditorFromDom()
 {
-    TXTextControl.removeFromDom();
+    if (TXTextControl !== undefined) {
+        TXTextControl.removeFromDom();
+    }
 }
-
-    
-
-
